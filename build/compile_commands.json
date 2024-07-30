@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build",
+  "command": "C:/msys64/ucrt64/bin/c++.exe   -g -o CMakeFiles/cal.dir/calc.cpp.obj -c C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/calc.cpp",
+  "file": "C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/calc.cpp",
+  "output": "CMakeFiles/cal.dir/calc.cpp.obj"
+}
+]
