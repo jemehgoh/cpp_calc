@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cal.dir/all
+all: CMakeFiles/calc.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cal.dir/clean
+clean: CMakeFiles/calc.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cal.dir
+# Target rules for target CMakeFiles/calc.dir
 
 # All Build rule for target.
-CMakeFiles/cal.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build/CMakeFiles --progress-num=1,2 "Built target cal"
-.PHONY : CMakeFiles/cal.dir/all
+CMakeFiles/calc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build/CMakeFiles --progress-num=1,2 "Built target calc"
+.PHONY : CMakeFiles/calc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cal.dir/rule: cmake_check_build_system
+CMakeFiles/calc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cal.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/build/CMakeFiles 0
-.PHONY : CMakeFiles/cal.dir/rule
+.PHONY : CMakeFiles/calc.dir/rule
 
 # Convenience name for target.
-cal: CMakeFiles/cal.dir/rule
-.PHONY : cal
+calc: CMakeFiles/calc.dir/rule
+.PHONY : calc
 
 # clean rule for target.
-CMakeFiles/cal.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/clean
-.PHONY : CMakeFiles/cal.dir/clean
+CMakeFiles/calc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/clean
+.PHONY : CMakeFiles/calc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

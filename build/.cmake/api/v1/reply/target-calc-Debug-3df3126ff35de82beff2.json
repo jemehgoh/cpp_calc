@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cal.exe"
+			"path" : "calc.exe"
 		},
 		{
-			"path" : "cal.pdb"
+			"path" : "calc.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "cal::@6890427a1f51a3e7e1df",
+	"id" : "calc::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cal",
-	"nameOnDisk" : "cal.exe",
+	"name" : "calc",
+	"nameOnDisk" : "calc.exe",
 	"paths" : 
 	{
 		"build" : ".",

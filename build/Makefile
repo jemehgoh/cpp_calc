@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cal
+# Target rules for targets named calc
 
 # Build rule for target.
-cal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cal
-.PHONY : cal
+calc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calc
+.PHONY : calc
 
 # fast build rule for target.
-cal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/build
-.PHONY : cal/fast
+calc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/build
+.PHONY : calc/fast
 
 calc.obj: calc.cpp.obj
 .PHONY : calc.obj
 
 # target to build an object file
 calc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/calc.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/calc.cpp.obj
 .PHONY : calc.cpp.obj
 
 calc.i: calc.cpp.i
@@ -142,7 +142,7 @@ calc.i: calc.cpp.i
 
 # target to preprocess a source file
 calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/calc.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/calc.cpp.i
 .PHONY : calc.cpp.i
 
 calc.s: calc.cpp.s
@@ -150,7 +150,7 @@ calc.s: calc.cpp.s
 
 # target to generate assembly for a file
 calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cal.dir/build.make CMakeFiles/cal.dir/calc.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/calc.cpp.s
 .PHONY : calc.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cal"
+	@echo "... calc"
 	@echo "... calc.obj"
 	@echo "... calc.i"
 	@echo "... calc.s"

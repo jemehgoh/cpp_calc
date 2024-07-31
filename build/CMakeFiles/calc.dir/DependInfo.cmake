@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/calc.cpp" "CMakeFiles/cal.dir/calc.cpp.obj" "gcc" "CMakeFiles/cal.dir/calc.cpp.obj.d"
+  "C:/Users/jerem/OneDrive/Desktop/CPP_Projects/calc/calc.cpp" "CMakeFiles/calc.dir/calc.cpp.obj" "gcc" "CMakeFiles/calc.dir/calc.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
